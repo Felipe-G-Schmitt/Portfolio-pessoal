@@ -422,7 +422,24 @@ header {
     .main img {
         width: 400px;
     }
+    .projectsMain1{
+        padding-right: 0rem;
+        padding-left: 0rem;
+    }
+    .projectsMain2{
+        padding-right: 0rem;
+        padding-left: 0rem;
+    }
+    .project1:hover {
+        height: 850px;
+    }
+    .project2:hover {
+        height: 850px;
+    }
     .project3:hover {
+        height: 850px;
+    }
+    .project4:hover {
         height: 850px;
     }
     .image-proj1 img {
@@ -431,9 +448,6 @@ header {
     .image-proj2 img{
         border: 2px solid black;
         width: 100%;
-    }
-    .project3 {
-        height: 180px;
     }
     .image-proj3 img{
         width: 100%;
@@ -455,8 +469,8 @@ header {
     }
 }
 @media screen and (max-width: 577px){
-    .project2 {
-        height: 180px;
+    .project1:hover {
+        height: 750px;
     }
     .project2:hover {
         height: 800px;
@@ -534,5 +548,16 @@ header {
     .project4:hover {
         height: auto;
         width: auto;
+    }
+}
+@media screen and (max-width: 375px){
+    * {
+        font-size: 15px;
+    }
+    .texts h1{
+        font-size: 2rem;
+    }
+    .main img {
+        width: 100%;
     }
 }
